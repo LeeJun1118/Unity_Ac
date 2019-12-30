@@ -13,6 +13,8 @@ public class PlayerCtrl : MonoBehaviour
     // 총알 인덱스
     private int BulletIndex;
 
+    private float SpinSpeed = 100;
+
     private void Start()
     {
         Speed = 3;
@@ -24,6 +26,8 @@ public class PlayerCtrl : MonoBehaviour
         float fy = Input.GetAxis("Vertical");
         this.transform.Translate(
             new Vector3(fx*Time.deltaTime*Speed,0.0f,fy * Time.deltaTime * Speed));
+
+        this.transform.Rotate(Vector3.up,fx * Time.deltaTime * SpinSpeed);
 
         // 마우스 왼쪽 버튼 클릭 시 총알 발사 (0 = 왼쪽  1 = 오른 쪽  2 = 휠 클릭)
         if (Input.GetMouseButton(0))
