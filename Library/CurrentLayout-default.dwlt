@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 444}
   m_MaxSize: {x: 22012, y: 10022}
   vertical: 0
-  controlID: 93
+  controlID: 124
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,9 +301,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d02d0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5cfbffff32300000363000003a300000
+      m_ExpandedIDs: f6faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -396,7 +396,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.27096757, y: -0.171803, z: 0.049215328, w: -0.9458737}
     speed: 2
-    m_Value: {x: -0.2709623, y: -0.17179966, z: 0.04921437, w: -0.9458553}
+    m_Value: {x: -0.27096757, y: -0.171803, z: 0.049215328, w: -0.9458736}
   m_Size:
     m_Target: 5.2515755
     speed: 2
@@ -545,21 +545,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Prefabs
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
-  m_LastFolders:
-  - Assets
+  m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\PC-3\Desktop\UnityFile\Project_A
+  m_LastProjectPath: C:\Users\user\Desktop\Project_A
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 182d0000
     m_LastClickedID: 11544
-    m_ExpandedIDs: 00000000a62c00003c2d00002e2e0000
+    m_ExpandedIDs: 00000000003100009631000088320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -587,7 +585,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000a62c00003c2d00002e2e0000
+    m_ExpandedIDs: ffffffff00000000003100009631000088320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
