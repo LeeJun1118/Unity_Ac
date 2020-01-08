@@ -13,6 +13,8 @@ TagManager:
   - UI
   - 
   - 
+  - Bullet
+  - Player
   - 
   - 
   - 
@@ -34,9 +36,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - World
   m_SortingLayers:
   - name: Default
     uniqueID: 0
