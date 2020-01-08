@@ -8,7 +8,7 @@ public class BulletCtrl : MonoBehaviour
      public float BulletSpeed;
 
      //** 총알 시작 위치
-     public Transform BulletPos;
+     private Transform BulletPos;
 
      //** 물리컴퍼넌트
      private Rigidbody Rigid;
@@ -43,6 +43,10 @@ public class BulletCtrl : MonoBehaviour
 
      private void OnTriggerEnter(Collider other)
      {
-          Destroy(this.gameObject);
-     }
+
+        this.transform.Find("BulletObj").gameObject.SetActive(false);
+        this.transform.Find("Explosion_B").gameObject.SetActive(true);
+        Rigid.isKinematic = true;
+
+    }
 }
