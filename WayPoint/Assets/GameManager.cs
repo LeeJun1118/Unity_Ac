@@ -4,6 +4,67 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
+    private GameManager() { }
+
+    static private GameManager Instance = null;
+
+    static public GameManager GetInstance
+    {
+        get
+        {
+            if (Instance == null)
+                Instance = new GameManager();
+
+            return Instance;
+        }
+    }
+    /*
+
+    static public GameManager GetInstance()
+    {
+         if (Instance == null)
+              Instance = new GameManager();
+         return Instance;
+    }
+    */
+
+
+
+    //** 가장 간단한 Singleton
+    /*
+    public void Awake()
+    {
+         Instance = this;
+    }
+    */
+
+
+    //** 자기 자신이 객체 상태로 포함되는 Singleton
+    /* 
+    static private GameObject Container;
+
+    static public GameManager GetInstance
+    {
+         get
+         {
+              if (Instance == null)
+              {
+                   Container = new GameObject();
+                   Container.name = "GameManager";
+                   Instance = Container.AddComponent(typeof(GameManager)) as GameManager;
+              }
+              return Instance;
+         }
+    }
+    */
+
+
+    /*public void Awake()
+    {
+        Instance = this;
+    }*/
+
     // 플레이어 파싱 
     public GameObject Player;
 
@@ -15,7 +76,7 @@ public class GameManager : MonoBehaviour
 
     //리스폰 될 위치
     public GameObject RePoint;
-    
+
     // RePoint가 현재 좌표를 중심으로 여러개가 생성될 것.
     public Transform Center;
 
@@ -29,7 +90,7 @@ public class GameManager : MonoBehaviour
         {
             // 복사해주고
             GameObject Obj = Instantiate(RePoint);
-            
+
             //복사된 객체의 좌표를 랜덤으로 지정함. 이때 Y좌표는 고정시킨다. 
             Obj.transform.position = new Vector3(
                 Random.Range(Center.position.x - 3, Center.position.x + 3),
@@ -45,7 +106,7 @@ public class GameManager : MonoBehaviour
 
         // 플레이어 파싱 
         Player = GameObject.Find("Player").transform.gameObject;
-        
+
         // 시간 초기화
         ftime = 0;
 
@@ -87,7 +148,7 @@ public class GameManager : MonoBehaviour
 
                     // 플레이어의 위치를 리스폰될 위치를 저장해둔 곳의 리스트 중 랜덤한 위치를 선택해 그 위치를 리스폰 위치로 지정한다.
                     Player.transform.position = RePointList[Random.Range(1, RePointList.Count)].transform.position;
-                    
+
                 }
             }
         }

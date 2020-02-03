@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 494}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -113,10 +113,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 917, y: 444}
-  m_MaxSize: {x: 22012, y: 10022}
+  m_MinSize: {x: 911, y: 444}
+  m_MaxSize: {x: 22006, y: 10022}
   vertical: 0
-  controlID: 120
+  controlID: 53
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,9 +301,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 44e3fffffcecffff6afbffff
+      m_SelectedIDs: 2adcffff
+      m_LastClickedID: -9174
+      m_ExpandedIDs: dcddffff0af8ffff6afbffff36300000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -363,9 +363,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.580502, y: 9.707082, z: -3.398741}
+    m_Target: {x: -4.387348, y: -8.301673, z: -11.488207}
     speed: 2
-    m_Value: {x: -2.580502, y: 9.707082, z: -3.398741}
+    m_Value: {x: -4.38735, y: -8.301676, z: -11.488212}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -394,13 +394,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.59791005, y: 0.0045733177, z: -0.0037635167, w: -0.8017036}
+    m_Target: {x: 0.050904028, y: -0.94626224, z: 0.25923118, w: 0.18744038}
     speed: 2
-    m_Value: {x: -0.5978323, y: 0.004572723, z: -0.0037630273, w: -0.8015993}
+    m_Value: {x: 0.050614435, y: -0.94649005, z: 0.2577679, w: 0.18748479}
   m_Size:
-    m_Target: 13.583383
+    m_Target: 28.649723
     speed: 2
-    m_Value: 13.583383
+    m_Value: 27.416002
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -546,19 +546,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\PC-3\\Documents\\\uC0C8 \uD3F4\uB354\\Unity_1G\\WayPoint"
+  m_LastProjectPath: C:\Users\PC-3\Desktop\Unity_Ac\WayPoint
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 182d0000
     m_LastClickedID: 11544
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000009e2c0000282e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -586,7 +586,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff182d00009e2e0000
+    m_ExpandedIDs: ffffffff000000009e2c0000282e0000ce300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
